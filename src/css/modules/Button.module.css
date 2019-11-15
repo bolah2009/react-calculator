@@ -1,0 +1,11 @@
+.button {
+  width: 25%;
+  margin: 4px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.wide {
+  width: 50%;
+}
