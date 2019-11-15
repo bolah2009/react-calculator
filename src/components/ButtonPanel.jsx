@@ -12,7 +12,7 @@ const buttonsLabel = [
 ];
 
 const ButtonGroup = ({ group, id }) => {
-  const buttonGroups = group.map((label) => (
+  const buttonGroups = group.map(label => (
     <Button key={label} name={label} isWide={label === '0'} />
   ));
   return (
