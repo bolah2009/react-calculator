@@ -2,3 +2,9 @@
   width: 90%;
   margin: 8px 2px;
 }
+
+@media (min-width: 780px) {
+  .button-group {
+    height: 100px;
+  }
+}

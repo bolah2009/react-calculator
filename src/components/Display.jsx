@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from '../css/modules/Display.module.css';
 
 const Display = ({ result }) => (
-  <div className={styles.display}>{result}</div>
+  <div className={`d-flex col jc-c ${styles.display}`}>{result}</div>
 );
 
 Display.propTypes = {
