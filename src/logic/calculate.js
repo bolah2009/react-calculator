@@ -1,14 +1,42 @@
 import operate from './operate';
 
 const calculate = (data, buttonName) => {
-  const { total, next } = data;
+  const { total, next, operation } = data;
+  const operations = ['+', 'X', '-', '%', '÷'];
+  let newTotal = total;
+  let newNext = next;
+  let newOperation = operation;
 
-  if (buttonName === '-/+') {
-    return { ...data, total: total * -1, next: next * -1 };
+  if (buttonName === 'AC') {
+    newTotal = null;
+    newNext = null;
+    newOperation = null;
+  } else if (buttonName === '+/-') {
+    if (next) {
+      newNext = operate(next, '-1', 'X');
+    } else if (total) {
+      newTotal = operate(total, '-1', 'X');
+    }
+  } else if (buttonName === '=') {
+    if (operation && total && next) {
+      newNext = null;
+      newTotal = operate(total, next, operation);
+      newOperation = null;
+    }
+  } else if (operations.includes(buttonName)) {
+    newNext = null;
+    newOperation = buttonName;
+    if (total && next && operation) {
+      newTotal = operate(total, next, operation);
+    } else if (next) {
+      newTotal = next;
+    }
+  } else if (next) {
+    newNext = next + buttonName;
+  } else {
+    newNext = buttonName;
   }
-
-  const calculation = operate(total, next, buttonName);
-  return { ...data, total: calculation, next: calculation };
+  return { operation: newOperation, total: newTotal, next: newNext };
 };
 
 export default calculate;

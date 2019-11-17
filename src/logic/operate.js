@@ -11,6 +11,9 @@ const operate = (firstOperand, secondOperand, operation) => {
     case 'X':
       return operand.times(secondOperand).toString();
     case '÷':
+      if (secondOperand === '0') {
+        return '0';
+      }
       return operand.div(secondOperand).toString();
     case '%':
       return operand.mod(secondOperand).toString();
