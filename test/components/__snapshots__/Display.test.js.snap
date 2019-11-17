@@ -4,7 +4,17 @@ exports[`Display component should render with an assigned result value 1`] = `
 <div
   className="d-flex col jc-c display"
 >
-  20
+  <div
+    className="currentButton"
+  >
+    
+  </div>
+  <div
+    className="mainDisplay"
+    id="display"
+  >
+    20
+  </div>
 </div>
 `;
 
@@ -12,6 +22,16 @@ exports[`Display component should render with default result value 1`] = `
 <div
   className="d-flex col jc-c display"
 >
-  0
+  <div
+    className="currentButton"
+  >
+    
+  </div>
+  <div
+    className="mainDisplay"
+    id="display"
+  >
+    0
+  </div>
 </div>
 `;

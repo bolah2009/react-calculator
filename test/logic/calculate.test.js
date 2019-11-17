@@ -5,7 +5,6 @@ beforeEach(() => {
   data = { total: null, next: null, operation: null };
 });
 
-
 describe('when `buttonName` is "AC"', () => {
   it('all properties are set to `null`', () => {
     const buttonName = 'AC';

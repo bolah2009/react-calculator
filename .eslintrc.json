@@ -11,7 +11,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb", "plugin:react/recommended"],
+  "extends": ["airbnb", "plugin:react/recommended", "prettier"],
   "plugins": ["react"],
   "rules": {
     "arrow-parens": ["error", "as-needed"],

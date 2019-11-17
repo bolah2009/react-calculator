@@ -7,6 +7,8 @@ Array [
   >
     <button
       className="button"
+      id="button-AC"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -18,6 +20,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-+/-"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -29,6 +33,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-%"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -40,6 +46,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-÷"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -55,6 +63,8 @@ Array [
   >
     <button
       className="button"
+      id="button-7"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -66,6 +76,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-8"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -77,6 +89,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-9"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -88,6 +102,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-X"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -103,6 +119,8 @@ Array [
   >
     <button
       className="button"
+      id="button-4"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -114,6 +132,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-5"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -125,6 +145,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-6"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -136,6 +158,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button--"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -151,6 +175,8 @@ Array [
   >
     <button
       className="button"
+      id="button-1"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -162,6 +188,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-2"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -173,6 +201,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-3"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -184,6 +214,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-+"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -199,6 +231,8 @@ Array [
   >
     <button
       className="button wide"
+      id="button-0"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -210,6 +244,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-."
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -221,6 +257,8 @@ Array [
     </button>
     <button
       className="button"
+      id="button-="
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
