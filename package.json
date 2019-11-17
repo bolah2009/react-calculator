@@ -11,7 +11,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "npx prettier  --write '**/*.{css,html,js,json,md.json,yaml,yml}'",
+    "format:check": "npx prettier  --check '**/*.{css,html,js,json,md.json,yaml,yml}'",
+    "lint": "npx eslint -c .eslintrc.json '**/*.{js,jsx}' --fix && npx stylelint '**/*.css' --fix",
+    "lint:check": "npx eslint -c .eslintrc.json '**/*.{js,jsx}' && npx stylelint '**/*.css'",
+    "codecov": "npx codecov"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +32,37 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolah2009/react-calculator.git"
+  },
+  "author": "Bola Ahmed Buari",
+  "license": "MIT",
+  "keywords": [
+    "JavaScript",
+    "DOM",
+    "Webpack",
+    "ES6",
+    "Test",
+    "Jest"
+  ],
+  "bugs": {
+    "url": "https://github.com/bolah2009/react-calculator/issues"
   }
 }

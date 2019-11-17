@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - node
+notifications:
+  - false
+script:
+  - npm run format:check
+  - npm run lint:check
