@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #000;
+}
+
+* {
+  font: 16px arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: #373737;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
+  background: transparent;
+}
+
+body {
+  font-size: 14px;
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 16px;
+}
+
+h1,
+h2 {
+  line-height: inherit;
+  text-transform: capitalize;
+}
+
+h1 {
+  color: #070707;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+h2 {
+  color: #171717;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 0.8em;
+  line-height: 1.4;
+  color: #272727;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}

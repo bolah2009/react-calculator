@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from './components/App';
+import './css/display.css';
+import './css/index.css';
 
 
 const Calculator = () => (
-  <h1 className="main">Calculator App</h1>
+  <div className="d-flex col ai-c main">
+    <h1 className="heading">Calculator App</h1>
+    <App />
+  </div>
 );
 
 
