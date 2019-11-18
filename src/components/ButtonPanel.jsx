@@ -12,8 +12,14 @@ const buttonsLabel = [
 ];
 
 const ButtonGroup = ({ group, id }) => {
-  const buttonGroups = group.map(label => (
-    <Button key={label} name={label} isWide={label === '0'} />
+  const buttonGroups = group.map((label, index) => (
+
+    <Button
+      key={label}
+      color={index < group.length - 1 ? 'lightgrey' : 'orange'}
+      name={label}
+      isWide={label === '0'}
+    />
   ));
   return (
     <div className={`d-flex as-c ${styles['button-group']} ${id}`}>{buttonGroups}</div>

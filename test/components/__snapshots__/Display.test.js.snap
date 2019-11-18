@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component should render with an assigned result value 1`] = `
+<div
+  className="d-flex col jc-c display"
+>
+  20
+</div>
+`;
+
+exports[`Display component should render with default result value 1`] = `
+<div
+  className="d-flex col jc-c display"
+>
+  0
+</div>
+`;

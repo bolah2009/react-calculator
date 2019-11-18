@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPanel component should  should render buttons in group 1`] = `
+Array [
+  <div
+    className="d-flex as-c button-group group-one"
+  >
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "orange",
+        }
+      }
+      type="button"
+    >
+      ÷
+    </button>
+  </div>,
+  <div
+    className="d-flex as-c button-group group-two"
+  >
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "orange",
+        }
+      }
+      type="button"
+    >
+      X
+    </button>
+  </div>,
+  <div
+    className="d-flex as-c button-group group-three"
+  >
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "orange",
+        }
+      }
+      type="button"
+    >
+      -
+    </button>
+  </div>,
+  <div
+    className="d-flex as-c button-group group-four"
+  >
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "orange",
+        }
+      }
+      type="button"
+    >
+      +
+    </button>
+  </div>,
+  <div
+    className="d-flex as-c button-group group-five"
+  >
+    <button
+      className="button wide"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+        }
+      }
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "orange",
+        }
+      }
+      type="button"
+    >
+      =
+    </button>
+  </div>,
+]
+`;
