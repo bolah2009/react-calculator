@@ -24,7 +24,7 @@ The objective is to create a Calculator app using React. The features of the app
 - Clone the project
 
 ```bash
-git clone https://github.com/bolah2009/js-battleship.git
+git clone https://github.com/bolah2009/react-calculator.git
 
 ```
 

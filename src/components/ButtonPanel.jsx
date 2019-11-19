@@ -20,7 +20,7 @@ class ButtonPanel extends React.Component {
         color={index < group.length - 1 ? 'lightgrey' : 'orange'}
         name={label}
         isWide={label === '0'}
-        onClick={() => clickHandler(label)}
+        handleClick={() => clickHandler(label)}
       />
     ));
     return (
