@@ -1,19 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component should  should render BurronPanel and Display components 1`] = `
+exports[`App component should  should render ButtonPanel and Display components 1`] = `
 <div
   className="d-flex col calculator"
 >
   <div
     className="d-flex col jc-c display"
   >
-    0
+    <div
+      className="currentButton"
+    />
+    <div
+      className="mainDisplay"
+      id="display"
+    >
+      0
+    </div>
   </div>
   <div
     className="d-flex as-c button-group group-one"
   >
     <button
       className="button"
+      id="button-AC"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -25,6 +35,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-+/-"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -36,6 +48,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-%"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -47,6 +61,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-÷"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -62,6 +78,8 @@ exports[`App component should  should render BurronPanel and Display components 
   >
     <button
       className="button"
+      id="button-7"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -73,6 +91,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-8"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -84,6 +104,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-9"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -95,6 +117,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-X"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -110,6 +134,8 @@ exports[`App component should  should render BurronPanel and Display components 
   >
     <button
       className="button"
+      id="button-4"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -121,6 +147,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-5"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -132,6 +160,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-6"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -143,6 +173,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button--"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -158,6 +190,8 @@ exports[`App component should  should render BurronPanel and Display components 
   >
     <button
       className="button"
+      id="button-1"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -169,6 +203,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-2"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -180,6 +216,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-3"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -191,6 +229,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-+"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",
@@ -206,6 +246,8 @@ exports[`App component should  should render BurronPanel and Display components 
   >
     <button
       className="button wide"
+      id="button-0"
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -217,6 +259,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-."
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "lightgrey",
@@ -228,6 +272,8 @@ exports[`App component should  should render BurronPanel and Display components 
     </button>
     <button
       className="button"
+      id="button-="
+      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "orange",

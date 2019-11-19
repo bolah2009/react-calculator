@@ -1,8 +1,6 @@
 .display {
-  font-size: 3.5em;
-  text-align: right;
+  max-width: 100%;
   font-weight: bold;
-  color: #fff;
   padding: 8px;
   border-bottom: 1px solid #636363;
   margin-bottom: 8px;
@@ -13,6 +11,19 @@
 
 @media (min-width: 780px) {
   .display {
-    height: 100px;
+    height: 108px;
   }
+}
+
+.currentButton {
+  color: #fff;
+  text-align: left;
+  height: 16px;
+}
+
+.mainDisplay {
+  font-size: 3.5em;
+  text-align: right;
+  color: #fff;
+  overflow-x: scroll;
 }

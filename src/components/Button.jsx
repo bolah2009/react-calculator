@@ -10,11 +10,13 @@ const generateClassName = (buttonIsWide, stylesObject) => {
   return button;
 };
 
-const Button = ({ name, isWide, color }) => (
+const Button = ({ name, isWide, color, handleClick }) => (
   <button
     style={{ backgroundColor: color }}
     className={generateClassName(isWide, styles)}
     type="button"
+    id={`button-${name}`}
+    onClick={handleClick}
   >
     {name}
   </button>
@@ -23,6 +25,7 @@ const Button = ({ name, isWide, color }) => (
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   isWide: PropTypes.bool.isRequired,
+  handleClick: PropTypes.func.isRequired,
   color: PropTypes.string,
 };
 

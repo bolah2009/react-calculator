@@ -11,30 +11,36 @@ const buttonsLabel = [
   { group: ['0', '.', '='], id: 'group-five' },
 ];
 
-const ButtonGroup = ({ group, id }) => {
-  const buttonGroups = group.map((label, index) => (
+class ButtonPanel extends React.Component {
+  renderButtonGroup({ group, id, key }) {
+    const { clickHandler } = this.props;
+    const buttonGroups = group.map((label, index) => (
+      <Button
+        key={label}
+        color={index < group.length - 1 ? 'lightgrey' : 'orange'}
+        name={label}
+        isWide={label === '0'}
+        handleClick={() => clickHandler(label)}
+      />
+    ));
+    return (
+      <div key={key} className={`d-flex as-c ${styles['button-group']} ${id}`}>
+        {buttonGroups}
+      </div>
+    );
+  }
 
-    <Button
-      key={label}
-      color={index < group.length - 1 ? 'lightgrey' : 'orange'}
-      name={label}
-      isWide={label === '0'}
-    />
-  ));
-  return (
-    <div className={`d-flex as-c ${styles['button-group']} ${id}`}>{buttonGroups}</div>
-  );
-};
+  render() {
+    const buttonPanel = buttonsLabel.map(({ group, id }) =>
+      this.renderButtonGroup({ group, id, key: id }),
+    );
 
-const ButtonPanel = () => (
-  buttonsLabel.map(({ group, id }) => (
-    <ButtonGroup key={id} group={group} id={id} />
-  ))
-);
+    return buttonPanel;
+  }
+}
 
-ButtonGroup.propTypes = {
-  group: PropTypes.arrayOf(PropTypes.string).isRequired,
-  id: PropTypes.string.isRequired,
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;

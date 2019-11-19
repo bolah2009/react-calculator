@@ -14,8 +14,8 @@
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "format": "npx prettier  --write '**/*.{css,html,js,json,md.json,yaml,yml}'",
-    "format:check": "npx prettier  --check '**/*.{css,html,js,json,md.json,yaml,yml}'",
+    "format": "npx prettier  --write '**/*.{css,html,js,json,md.json,yaml,yml,jsx}'",
+    "format:check": "npx prettier  --check '**/*.{css,html,js,json,md.json,yaml,yml,jsx}'",
     "lint": "npx eslint -c .eslintrc.json '**/*.{js,jsx}' --fix && npx stylelint '**/*.css' --fix",
     "lint:check": "npx eslint -c .eslintrc.json '**/*.{js,jsx}' && npx stylelint '**/*.css'",
     "codecov": "npx codecov"

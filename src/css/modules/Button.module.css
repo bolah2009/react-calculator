@@ -5,8 +5,14 @@
   border-radius: 6px;
   padding: 8px;
   font-size: 2em;
+  cursor: pointer;
 }
 
 .wide {
   width: 50%;
+}
+
+.button:hover {
+  border-color: #333;
+  color: #fff;
 }
