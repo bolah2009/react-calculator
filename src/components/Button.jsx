@@ -11,16 +11,16 @@ const generateClassName = (buttonIsWide, stylesObject) => {
 };
 
 const Button = ({ name, isWide, color, handleClick }) => (
-  <button
-    style={{ backgroundColor: color }}
-    className={generateClassName(isWide, styles)}
-    type="button"
-    id={`button-${name}`}
-    onClick={handleClick}
-  >
-    {name}
-  </button>
-);
+    <button
+      style={{ backgroundColor: color }}
+      className={generateClassName(isWide, styles)}
+      type="button"
+      id={`button-${name}`}
+      onClick={handleClick}
+    >
+      {name}
+    </button>
+  )
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,

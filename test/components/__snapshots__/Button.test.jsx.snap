@@ -4,8 +4,9 @@ exports[`Button component should render with 50% width when isWide is true 1`] =
 <button
   className="button wide"
   id="button-0"
+  onClick={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "grey",
     }
   }
@@ -19,8 +20,9 @@ exports[`Button component should render with grey background color 1`] = `
 <button
   className="button"
   id="button-+"
+  onClick={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "grey",
     }
   }
@@ -34,8 +36,9 @@ exports[`Button component should render with orange default background color 1`]
 <button
   className="button"
   id="button-0"
+  onClick={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "orange",
     }
   }

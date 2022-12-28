@@ -11,9 +11,8 @@ const buttonsLabel = [
   { group: ['0', '.', '='], id: 'group-five' },
 ];
 
-class ButtonPanel extends React.Component {
-  renderButtonGroup({ group, id, key }) {
-    const { clickHandler } = this.props;
+const ButtonPanel = ({ clickHandler }) => {
+  const renderButtonGroup = ({ group, id, key }) => {
     const buttonGroups = group.map((label, index) => (
       <Button
         key={label}
@@ -28,16 +27,14 @@ class ButtonPanel extends React.Component {
         {buttonGroups}
       </div>
     );
-  }
+  };
 
-  render() {
-    const buttonPanel = buttonsLabel.map(({ group, id }) =>
-      this.renderButtonGroup({ group, id, key: id }),
-    );
+  const buttonPanel = buttonsLabel.map(({ group, id }) =>
+    renderButtonGroup({ group, id, key: id }),
+  );
 
-    return buttonPanel;
-  }
-}
+  return buttonPanel;
+};
 
 ButtonPanel.propTypes = {
   clickHandler: PropTypes.func.isRequired,
