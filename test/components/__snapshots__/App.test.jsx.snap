@@ -1,7 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonPanel component should  should render buttons in group 1`] = `
-Array [
+exports[`App component should  should render ButtonPanel and Display components 1`] = `
+<div
+  className="d-flex col calculator"
+>
+  <div
+    className="d-flex col jc-c display"
+  >
+    <div
+      className="currentButton"
+      role="presentation"
+    />
+    <div
+      className="mainDisplay"
+      id="display"
+      role="status"
+    >
+      0
+    </div>
+  </div>
   <div
     className="d-flex as-c button-group group-one"
   >
@@ -10,7 +27,7 @@ Array [
       id="button-AC"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -23,7 +40,7 @@ Array [
       id="button-+/-"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -36,7 +53,7 @@ Array [
       id="button-%"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -49,7 +66,7 @@ Array [
       id="button-÷"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -57,7 +74,7 @@ Array [
     >
       ÷
     </button>
-  </div>,
+  </div>
   <div
     className="d-flex as-c button-group group-two"
   >
@@ -66,7 +83,7 @@ Array [
       id="button-7"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -79,7 +96,7 @@ Array [
       id="button-8"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -92,7 +109,7 @@ Array [
       id="button-9"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -105,7 +122,7 @@ Array [
       id="button-X"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -113,7 +130,7 @@ Array [
     >
       X
     </button>
-  </div>,
+  </div>
   <div
     className="d-flex as-c button-group group-three"
   >
@@ -122,7 +139,7 @@ Array [
       id="button-4"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -135,7 +152,7 @@ Array [
       id="button-5"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -148,7 +165,7 @@ Array [
       id="button-6"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -161,7 +178,7 @@ Array [
       id="button--"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -169,7 +186,7 @@ Array [
     >
       -
     </button>
-  </div>,
+  </div>
   <div
     className="d-flex as-c button-group group-four"
   >
@@ -178,7 +195,7 @@ Array [
       id="button-1"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -191,7 +208,7 @@ Array [
       id="button-2"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -204,7 +221,7 @@ Array [
       id="button-3"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -217,7 +234,7 @@ Array [
       id="button-+"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -225,7 +242,7 @@ Array [
     >
       +
     </button>
-  </div>,
+  </div>
   <div
     className="d-flex as-c button-group group-five"
   >
@@ -234,7 +251,7 @@ Array [
       id="button-0"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -247,7 +264,7 @@ Array [
       id="button-."
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -260,7 +277,7 @@ Array [
       id="button-="
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -268,6 +285,6 @@ Array [
     >
       =
     </button>
-  </div>,
-]
+  </div>
+</div>
 `;

@@ -1,22 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component should  should render ButtonPanel and Display components 1`] = `
-<div
-  className="d-flex col calculator"
->
-  <div
-    className="d-flex col jc-c display"
-  >
-    <div
-      className="currentButton"
-    />
-    <div
-      className="mainDisplay"
-      id="display"
-    >
-      0
-    </div>
-  </div>
+exports[`ButtonPanel component should  should render buttons in group 1`] = `
+[
   <div
     className="d-flex as-c button-group group-one"
   >
@@ -25,7 +10,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-AC"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -38,7 +23,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-+/-"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -51,7 +36,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-%"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -64,7 +49,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-÷"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -72,7 +57,7 @@ exports[`App component should  should render ButtonPanel and Display components 
     >
       ÷
     </button>
-  </div>
+  </div>,
   <div
     className="d-flex as-c button-group group-two"
   >
@@ -81,7 +66,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-7"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -94,7 +79,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-8"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -107,7 +92,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-9"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -120,7 +105,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-X"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -128,7 +113,7 @@ exports[`App component should  should render ButtonPanel and Display components 
     >
       X
     </button>
-  </div>
+  </div>,
   <div
     className="d-flex as-c button-group group-three"
   >
@@ -137,7 +122,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-4"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -150,7 +135,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-5"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -163,7 +148,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-6"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -176,7 +161,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button--"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -184,7 +169,7 @@ exports[`App component should  should render ButtonPanel and Display components 
     >
       -
     </button>
-  </div>
+  </div>,
   <div
     className="d-flex as-c button-group group-four"
   >
@@ -193,7 +178,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-1"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -206,7 +191,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-2"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -219,7 +204,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-3"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -232,7 +217,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-+"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -240,7 +225,7 @@ exports[`App component should  should render ButtonPanel and Display components 
     >
       +
     </button>
-  </div>
+  </div>,
   <div
     className="d-flex as-c button-group group-five"
   >
@@ -249,7 +234,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-0"
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -262,7 +247,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-."
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "lightgrey",
         }
       }
@@ -275,7 +260,7 @@ exports[`App component should  should render ButtonPanel and Display components 
       id="button-="
       onClick={[Function]}
       style={
-        Object {
+        {
           "backgroundColor": "orange",
         }
       }
@@ -283,6 +268,6 @@ exports[`App component should  should render ButtonPanel and Display components 
     >
       =
     </button>
-  </div>
-</div>
+  </div>,
+]
 `;

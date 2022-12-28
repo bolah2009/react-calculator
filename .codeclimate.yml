@@ -1,0 +1,10 @@
+exclude_patterns:
+  - 'hint-report/'
+  - 'coverage'
+  - 'dist/'
+  - 'build/'
+  - 'public/'
+  - '**/node_modules/'
+  - '**/test/'
+  - '.*'
+  - 'yarn.lock'
